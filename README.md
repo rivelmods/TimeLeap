@@ -1,2 +1,2 @@
 # TimeLeap
-A lightweight commandline timelapse recorder.
+A lightweight timelapse recorder written in python.
