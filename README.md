@@ -1,7 +1,7 @@
 # Timelapse
 A simple command line timelapse recorder made for my personal use.
 
-> :warning: **This program only works in unix based systems
+> :warning: This program only works in unix based systems
 
 ### Dependencies
 - [pyautogui](https://pypi.org/project/PyAutoGUI/)
