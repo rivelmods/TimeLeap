@@ -1,4 +1,4 @@
-# Timelapse
+# TimeLeap
 A simple command line timelapse recorder made for my personal use.
 
 > :warning: This program only works in unix based systems
