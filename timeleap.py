@@ -60,11 +60,11 @@ def get_args(argv, record_time, fps):
     try:
         opts, args = getopt.getopt(argv, "r:f:", ["record_time=", "fps="])
     except getopt.GetoptError:
-        print('ERROR: usage - timelapse.py -r <record_time> -f <fps>')
+        print('ERROR: usage - timeleap.py -r <record_time> -f <fps>')
         sys.exit(2)
 
     if not opts:
-        print('ERROR: usage - timelapse.py -r <record_time> -f <fps>')
+        print('ERROR: usage - timeleap.py -r <record_time> -f <fps>')
         sys.exit(2)
 
     for opt, arg in opts:
@@ -81,7 +81,6 @@ def main(argv):
     fps = ''
 
     record_time, fps = get_args(argv, record_time, fps)
-    print(input)
 
     record(record_time)
     render_video(fps)

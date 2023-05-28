@@ -30,6 +30,6 @@ You can pass in two arguments the time you want to record and the fps of the fin
 And it will also ask you if you want to clear the screenshots folder if you are no longer going to use the images. The command is give below. Replace record_time and fps with your desired values.
 
 ```
-python3 timelapse.py -r <record_time> -f <fps>
+python3 timeleap.py -r <record_time> -f <fps>
 ```
 
