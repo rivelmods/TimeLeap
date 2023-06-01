@@ -1,5 +1,3 @@
-print("Initializing the program...")
-
 import os
 import time
 import subprocess
@@ -54,7 +52,7 @@ def record(record_time):
             print('Recording is done')
             break
         else:
-            print('Recording', end="\r", flush=True)
+            print('Recording...', end="\r", flush=True)
 
 def get_args(argv, record_time, fps):
     try:
@@ -86,4 +84,5 @@ def main(argv):
     render_video(fps)
 
 if __name__ == '__main__':
+    print("Initializing the program...")
     main(sys.argv[1:])
